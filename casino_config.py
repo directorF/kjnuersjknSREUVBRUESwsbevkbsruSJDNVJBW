@@ -89,7 +89,7 @@ def get_inf_profil(balance, referals, ref_balance, ref_link, random_number):
                  f"💰 Ваш реферальный баланс 💰\n" \
                  f"{ref_balance}₽\n\n" \
                  f"⛓ Ваша реферальная ссылка ⛓\n" \
-                 f"{http://t.me/GudTOR_BOT}\n\n" \
+                 f"{ref_link}\n\n" \
                  f"🎲 Число человек онлайн 🎲\n" \
                  f"{random_number}\n\n"\
     return inf_profil
