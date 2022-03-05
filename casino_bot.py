@@ -345,4 +345,4 @@ def get_text_message_worker(message):
             bot.send_message(message.from_user.id, "Вы перешли меню", reply_markup=keyboard_osnova())
 
 if __name__ == '__main__':
-    bot.polling(none_stop = True, interval = 0)
+    bot.infinity_polling(timeout=10, long_polling_timeout = 5)
