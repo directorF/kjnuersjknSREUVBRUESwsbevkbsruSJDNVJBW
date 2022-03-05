@@ -20,14 +20,14 @@ manual_link = "https://telegra.ph/Primer-11-16-3"
 manual_link_2 = "https://telegra.ph/Kak-skryt-referalnuyu-ssylku-02-07"
 screens_bot = "screens_help_robot"
 
-bot_name = "maindaybot"
-fake_number = "79678349823"
+bot_name = "GudTor"
+fake_number = "79952743285"
 min_summa = 55
 min_deposit = 0
 people = 10
 percent = 20
 
-QIWI_TOKEN = '5b8d88f367c496d0a3a3655ae89964d7'
+QIWI_TOKEN = '6ca55592b75f07e785341b3d06c0302e'
 QIWI_NUMBER = '4890494796173508'
 
 # Работа с бд
@@ -81,16 +81,15 @@ def get_random_number(message):
 
 
 def get_inf_profil(balance, referals, ref_balance, ref_link, random_number):
-    inf_profil = f"✅ ЛИЧНЫЙ КАБИНЕТ ✅\n\n" \
+    inf_profil = f"👤 ЛИЧНЫЙ КАБИНЕТ 👤\n\n" \
                  f"💵 БАЛАНС 💵\n" \
                  f"{balance}₽\n\n\n" \
                  f"👥 Ваши рефералы 👥\n" \
                  f"{referals}\n\n" \
                  f"💰 Ваш реферальный баланс 💰\n" \
                  f"{ref_balance}₽\n\n" \
-                 f"👤 Ваша реферальная ссылка 👤\n" \
-                 f"{ref_link}\n\n" \
+                 f"⛓ Ваша реферальная ссылка ⛓\n" \
+                 f"{http://t.me/GudTOR_BOT}\n\n" \
                  f"🎲 Число человек онлайн 🎲\n" \
                  f"{random_number}\n\n"\
-                 f"Casino v3 | remastered by MainDay"
     return inf_profil
