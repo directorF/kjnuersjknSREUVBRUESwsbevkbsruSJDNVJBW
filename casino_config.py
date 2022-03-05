@@ -81,15 +81,16 @@ def get_random_number(message):
 
 
 def get_inf_profil(balance, referals, ref_balance, ref_link, random_number):
-    inf_profil = f"👤 ЛИЧНЫЙ КАБИНЕТ 👤\n\n" \
+    inf_profil = f"✅ ЛИЧНЫЙ КАБИНЕТ ✅\n\n" \
                  f"💵 БАЛАНС 💵\n" \
                  f"{balance}₽\n\n\n" \
                  f"👥 Ваши рефералы 👥\n" \
                  f"{referals}\n\n" \
                  f"💰 Ваш реферальный баланс 💰\n" \
                  f"{ref_balance}₽\n\n" \
-                 f"⛓ Ваша реферальная ссылка ⛓\n" \
+                 f"👤 Ваша реферальная ссылка 👤\n" \
                  f"{ref_link}\n\n" \
                  f"🎲 Число человек онлайн 🎲\n" \
                  f"{random_number}\n\n"\
+                 f"Casino v3 | remastered by MainDay"
     return inf_profil
